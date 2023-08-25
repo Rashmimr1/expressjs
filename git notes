@@ -1,0 +1,69 @@
+[8:06 am, 22/08/2023] 🥰: Baralva
+[0:01 pm, 22/08/2023] Jspider Nandini: 1.	WHAT IS GIT?
+  Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers who are collaboratively developing source code during software development. It goals include speed, data integrity, and support for distributed, non-linear workflows.
+
+2.	WHAT IS GITHUB?
+  GitHub, Inc. is a platform and cloud-based service for software development and version control using git, allowing developers to store and manage their code.
+
+3.	WHAT IS A GIT CLONE?
+  Git clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location. The original repository can be located on the local file system or an remote machine accessible supported protocols. The git clone command copies an existing git repository.
+Command:  git clone repository-URL
+
+4.	WHAT IS GIT STATUS IN GIT?
+  The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven’t, and which files aren’t being tracked by git.
+Command: git status
+
+5.	WHAT IS GIT ADD?
+  The git add command adds new or changed files in your working directory to the git staging area. Git add is an important command – without it, no git commit would ever do anything.
+Command: git add filename
+                    git add filename1 filename2   ------------ to add multiple files
+                    git add .  OR  git add -A   ------- to add every files
+
+6.	WHAT IS GIT STAGING AREA?
+  The staging area can be described as a preview of your next commit. When you create a git commit, git takes changes that are in the staging area and make them as a new commit. You are allowed to add and remove changes from the staging area. The staging area can be considered as a real area where git stores the changes.
+
+7.	WHAT IS GIT RESTORE?
+  The “restore” command helps to unstage or even discard uncommitted local images. On the one hand, the command can be used to undo the effects of git add and unstage changes you have previously added to the staging area.
+Command: git restore --staged filename
+
+8.	WHAT IS THE USE OF GIT COMMIT?
+  The “commit” command is used to save your changes to the local repository. Note that you have to explicitly tell git which changes you want to include in a commit before running the “git commit” command. This means that a file won’t be automatically included in the next commit just because it was changed.
+Command: git commit -m [commit message]
+
+9.	WHAT DOES THE GIT LOG?
+  The git log command displays all the commits in a repository’s history.
+Command: git log OR git log --oneline
+
+10.	WHAT IS REVERT AND RESET IN GIT?
+ You can also think of git revert as a tool for undoing committed changes.
+Command: git revert commit [commit_id]
+
+11.	WHAT IS GIT PULL?
+  The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+Command: git pull
+
+12.	WHAT IS GIT INIT?
+  The git init command creates a new git repository. It can be used to convert a n existing, unversioned project to a git repository or initialize a new, empty repository. Most other git commands are not available outside of an initialized repository, so this is usually the first command you’ll run in a new project.
+Command: git init
+
+13.	WHAT IS GIT BRANCH?
+  Git branches are effectively a pointer to a snapshot of your changes. When you want to add anew feature or fix a bug-no matter how big or how small you spawn a new branch to encapsulate your changes.
+Command: git branch   -------------- to get list of branches
+                    git branch --list
+                    git branch branchname    ---------------   to create new branch
+                    git push -u origin main[name of master] branchname   ---------------      to publish the branch
+
+14.	WHAT IS GIT CHECKOUT?
+  The git checkout command lets you navigate between the branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells git to record all new commits on that branch.
+
+NOTE: whenever we push the code before that we have to take the pull from the parent repository.
+After creating the branch, we have to publish it by using command called “git push -u origin remote repositoryname[MAIN/MASTER] branchname”
+After merging the branch take pull and push.
+Before merging we should checkout or switch the branch to which we are merging.
+
+15.	WHAT IS MERGE CONFLICT? [Merge Request(MR) or Pull Request(PR)]
+  Merge conflicts occur when competing changes are made to the same line of a file, or when one person edits a file and another person deletes the same file.
+
+16.	WHEN GIT MERGE?
+  Git Merge and Merge Conflict – javapoint
+       The git merge command facilitates you to take the data created by git branch and integrate them into a single branch. Git merge will associate a series of commits into one unified history. Generally, git merge is used to combine two branches

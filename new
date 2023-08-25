@@ -1,0 +1,40 @@
+// mongo atlas
+// supervisor--> run in cmd  ===>>>  npm i -g
+
+
+//https://downloads.mongodb.com/compass/mongodb-compass-1.39.1-darwin-arm64.dmg
+//mongodb+srv://rashmimr129:<password>@cluster0.diuo3xu.mongodb.net/
+
+//mongodb+srv://rashmimr129:RashmiMR1@cluster0.diuo3xu.mongodb.net/
+
+
+//FREE--> password reset-->finish --> database--> connect--> connect to application--> compass--> connect to cluster--> copy the url-->
+//create
+//->security--> network--> edit--> edit ap--> allow access from anywhere--> confirm
+
+//bcryptjs-->library-->used to encrypt data
+
+//package-->Nodemailer ---> Nodemailer less secure application
+// https://myaccount.google.com/security
+
+password----> nodowertqhytynra
+
+create one api with email and send 6 digit otp to email +
+create another api with email and compare the otp if its matching then send message--> login successfull
+req.body  math.random
+create reset password to the api
+
+jwt-->jsonwebtoken
+jwt.io
+npm i jsonwebtoken
+
+creating jsonwebtoken
+postman-->get -->authorization-->bearer token copy paste token  from post
+
+//regular expression,short circuit operators in js
+
+deepcopy shalow copy in js 
+
+sort,fields,page,limit
+,-->multiple values to differnet fields 
+&->different fields
